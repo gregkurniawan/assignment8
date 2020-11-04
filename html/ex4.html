@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link href="../css/ex4.css" rel="stylesheet" type="text/css">
+    <title>Using Web APIs</title>
+</head>
+<body>
+    <a href = "../index.html">Home Page</a> <br><br>
+    <h2>Sample Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        
+        Payment Type: <br>
+        <input type="radio" id="cash" name="payment" value="Cash">
+        <label for="cash">Cash</label><br>
+        <input type="radio" id="credit" name="payment" value="Credit Card">
+        <label for="credit">Credit Card</label><br>
+        <input type="radio" id="google" name="payment" value="Google Pay">
+        <label for="google">Google Pay</label><br>
+        <input type="radio" id="apple" name="payment" value="Apple Pay">
+        <label for="apple">Apple Pay</label> <br><br>
+
+        <input type="checkbox" id="promos" name="promos" value="Promotions On">
+        <label for="vehicle1">Sign me up for special promotions</label><br><br>
+
+        <label for="location">Preferred Location:</label>
+        <select id="location" name="location">
+            <option value="Los Angeles" selected>Los Angeles</option>
+            <option value="Orange County">Orange County</option>
+            <option value="Riverside">Riverside</option>
+            <option value="San Diego">San Diego</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+    </form>
+    <script src = "../js/ex4.js"></script>
+</body>
+</html>
